@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", 微软雅黑, Tahoma, Arial, sans-serif;
+}
+
+a {
+    color: #14191e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #746a6a;
+}
+
+div.box{
+    overflow: hidden;
+}
+
+header.header{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    height: 60px;
+    background-color:rgb(228, 216, 216);
+    color: rgb(8, 8, 8); 
+    text-decoration: none;
+}
+
+div.box > header.header > a.header__loop{
+    float: left;
+    height: 40px;
+    margin: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 170px;
+    background: url("logo.png") no-repeat center ;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+div.box > header.header > nav.header__nav{
+    float: center;
+    margin: 10px 10px 0px 0px;
+    position: relative;
+    background: #1f1a1a;
+    color: #141414;
+    text-decoration: none;
+}
+
+div.box > header.header > nav.header__nav ~ a{
+    text-align: center;
+    color: #c29696;
+    text-decoration: none;
+}
+
+
+div.box > header.header > nav.header__nav > a.header__nav-item:hover{
+    color: #c29797;
+    text-shadow: rgb(196, 159, 159);
+    text-decoration: none;
+}
+
+div.box > header.header > nav.header__nav > a.header_00p:hover{
+    color: #c79595;
+    text-shadow: rgb(187, 141, 141);
+    text-decoration: none;
+}
+
+div.box > header.header > nav.header__nav > a.header__nav-item{
+    float: left;
+    padding: 0 40px;
+    font-size: 14px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.screen-1 {
+    color: rgb(124, 103, 103);
+    height:1000px;
+    background-color: #f5efef;
+    text-align: center;
+    background-size:cover;
+    position: relative;
+}
+
+.screen-1__wrap {
+    max-width: 300px;
+    min-width: 100px;
+    margin: 0px auto;
+    margin-left: 180px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen-1__heading {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.screen-1__heading-1{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    font-size: 20px;
+}
+
+div > section.screen-1 > div.screen-1__wrap > div.screen-1__heading b{
+    color: #5e3939;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.screen-1__phone {
+    position: absolute;
+    bottom: 100px;
+    width: 900px;
+    height: 800px;
+    left: 50%;
+    margin-left: -400px;
+    background: url(phone1.png) no-repeat center ;
+    background-size: cover;
+    z-index: 1;
+}
+
+.screen-1__features {
+    position: absolute;
+    width: 328px;
+    height: 288px;
+    bottom: 270px;
+    left: 160px;
+}
+.screen-1__features-item-number{
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 32px 0 9px 0;
+    display: block;
+}
+.screen-1__features-item {
+    float: left;
+    width: 138px;
+    height: 118px;
+    border: 1px solid rgb(201, 176, 176);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    margin: 0 24px 24px 0;
+    color: rgb(134, 80, 80);
+}
+/* 第二屏开始 */
+section.screen-2{
+    color: rgb(7,17,27);
+    height: 2000px;
+    background-color: rgba(253, 241, 239, 0.966);
+    text-align: center;
+}
+.screen-2__wrap {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0px auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen-2__heading {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    font-size: 35px;
+    color: #645c5c
+}
+.screen-2__subheading {
+    width: 100%;
+    top: 450px;
+    left: -295px;;
+    position: absolute;
+    font-size: 30px;
+    color: #645c5c;
+}
+
+.screen-2__subheading-1{
+    width: 100%;
+    top: 500px;
+    left: -252px;
+    position: absolute;
+    font-size: 20px;
+    color: #494242;
+}
+
+.screen-2__subheading2 {
+    width: 100%;
+    padding-block: 0px auto;
+    bottom: 490px;
+    right: -365px;
+    position: absolute;
+    font-size: 33px;
+    color: #645c5c;
+}
+
+.screen-2__subheading-2{
+    width: 100%;
+    padding-block: 0px auto;
+    bottom: 450px;
+    right: -365px;
+    position: absolute;
+    font-size: 20px;
+    color: #4b4141;
+}
+
+.screen-2__phone1,
+.screen-2__phone2{
+    width: 800px;
+    height: 873px;
+    background: url(../img/bg-screen-2.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -464px;
+    top: 270px;
+}
+
+
+/* 第三屏开始 */
+
+.screen-3 {
+    color: rgb(255,255,255);
+    height: 800px;
+    background-color: #a71316;
+}
+
+.screen-4 {
+    height: 2200px;
+    text-align: center;
+    overflow: hidden;
+    background: #eee8e8;
+    position: relative; 
+}
+
+
+.screen-4__wrap {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0px auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen-4__heading {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    font-size: 42px;
+    color: #685d5d;
+    text-align: center;
+}
+.screen-4__subheading {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    font-size: 20px;
+    color: #7a6868;
+    text-align: center;
+}
+
+.screen-4__type {
+    width: 2000px;
+    margin-left: 300px;
+    height: 400px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+}
+
+.screen-4__type-item {
+    width: 300px;
+    height: 400px;
+    float: left;
+    top: 150px;
+    margin-right: 90px;
+    position: relative;
+}
+.screen-4__type-item-name{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #2c3238;
+}
+
+.screen-4__type-item_i_1 {
+    background: url("wa1.png") center left no-repeat;
+    top: 300px;
+    left: -100px;
+    width: 350px;
+    height: 600px;
+}
+
+.screen-4__type-item_i_2 {
+    background: url("wa2.png") center left no-repeat;
+    top: 300px;
+    width: 350px;
+    height: 600px;
+    right: 100px;
+}
+
+.screen-4__type-item_i_3 {
+    background: url("wa3.png") center left no-repeat;
+    top: 950px;
+    left: -980px;
+    width: 800px;
+    height: 470px;
+}
+
+.screen-4__type-item_i_4 {
+    background: url("wa4.png") center left no-repeat;
+    top: 1000px;
+    left: -970px;
+    width: 350px;
+    height: 600px;
+
+}
+
+.screen-4__type-item_i_5 {
+    background: url("wa5.png") center left no-repeat;
+    width: 350px;
+    height: 600px;
+    top: 1000px;
+    left: -980px;
+
+}
+
+.buy {
+    height: 80px;
+    padding: 120px 0px;
+    background-color: rgb(228, 214, 214);
+}
+
+.buy__button:hover,
+.buy__button {
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(226, 136, 136);
+    border-radius: 3px;
+    margin: 0px auto;
+    display: block;
+    background-color: #eee5e5;
+    transition:all .5s;
+}
+.buy__button:hover{
+    box-shadow: 0 10px 10px rgba(241, 223, 223, 0.5);
+    transform:translate(0,-5px);
+}
+
+.footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #ebddd9;
+    text-align: center;
+    color: rgb(255, 244, 244);
+}
+
+.outline {
+    position: fixed;
+    padding: 5px 10px;
+    bottom: 120px;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(7, 17, 27, 0.1);
+}
+
+.outline__item {
+    display: block;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    background: rgb(255,255,255);
+    margin: 5px 0px 0px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #93999f;
+}
+.outline__item:first-child{
+    border:none;
+}
+.outline__item_status_active{
+    color: #000;
+}
+
